@@ -26,7 +26,7 @@ const StateButton = () => {
     <div className="">
       <button
         className={`w-[130px] ${
-          saved ? "bg-red-400" : "bg-slate-400"
+          saved ? "bg-red-400" : "bg-purple-600"
         }  text-white p-4`}
         onClick={handleButtonClick}
       >
